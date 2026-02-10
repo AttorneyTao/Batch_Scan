@@ -1,0 +1,17 @@
+{
+  "2": {
+    "file_path": "D:\\OneDrive\\文档\\0工作资料\\国浩工作资料\\自有案件\\开源合规专项——理想汽车\\haloosspace\\vbs\\vbspro\\thirdparty\\boost\\include\\boost\\config\\abi\\msvc_prefix.hpp",
+    "license_expression_spdx": "BSL-1.0",
+    "error": null
+  },
+  "1": {
+    "file_path": "D:\\OneDrive\\文档\\0工作资料\\国浩工作资料\\自有案件\\开源合规专项——理想汽车\\haloosspace\\ados\\kernel\\include\\linux\\ceph\\messenger.h",
+    "license_expression_spdx": "GPL-2.0-only",
+    "error": null
+  },
+  "0": {
+    "file_path": "D:\\OneDrive\\文档\\0工作资料\\国浩工作资料\\自有案件\\开源合规专项——理想汽车\\haloosspace\\vbs\\vbspro\\utils\\src\\elog\\utils\\md5.cpp",
+    "license_expression_spdx": "RSA-MD",
+    "error": null
+  }
+}

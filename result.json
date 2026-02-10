@@ -1,0 +1,92 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.5.0",
+      "options": {
+        "input": [
+          "D:\\OneDrive\\\u6587\u6863\\0\u5de5\u4f5c\u8d44\u6599\\\u56fd\u6d69\u5de5\u4f5c\u8d44\u6599\\\u81ea\u6709\u6848\u4ef6\\\u5f00\u6e90\u5408\u89c4\u4e13\u9879\u2014\u2014\u7406\u60f3\u6c7d\u8f66\\haloosspace\\vbs/vbspro/thirdparty/boost/include/boost/config/abi/msvc_prefix.hpp"
+        ],
+        "--json-pp": "result.json",
+        "--license": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2026-02-10T070404.176605",
+      "end_timestamp": "2026-02-10T070418.979101",
+      "output_format_version": "4.1.0",
+      "duration": 14.802532434463501,
+      "message": null,
+      "errors": [],
+      "warnings": [],
+      "extra_data": {
+        "system_environment": {
+          "operating_system": "win",
+          "cpu_architecture": "64",
+          "platform": "Windows-11-10.0.26200-SP0",
+          "platform_version": "10.0.26200",
+          "python_version": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]"
+        },
+        "spdx_license_list_version": "3.27",
+        "files_count": 1
+      }
+    }
+  ],
+  "license_detections": [
+    {
+      "identifier": "boost_1_0-7d91c102-4b73-b55e-398c-cca7ae1e7bf5",
+      "license_expression": "boost-1.0",
+      "license_expression_spdx": "BSL-1.0",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "boost-1.0",
+          "license_expression_spdx": "BSL-1.0",
+          "from_file": "msvc_prefix.hpp",
+          "start_line": 2,
+          "end_line": 4,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 32,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "boost-1.0_21.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/boost-1.0_21.RULE"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "msvc_prefix.hpp",
+      "type": "file",
+      "detected_license_expression": "boost-1.0",
+      "detected_license_expression_spdx": "BSL-1.0",
+      "license_detections": [
+        {
+          "license_expression": "boost-1.0",
+          "license_expression_spdx": "BSL-1.0",
+          "matches": [
+            {
+              "license_expression": "boost-1.0",
+              "license_expression_spdx": "BSL-1.0",
+              "from_file": "msvc_prefix.hpp",
+              "start_line": 2,
+              "end_line": 4,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 32,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "boost-1.0_21.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/boost-1.0_21.RULE"
+            }
+          ],
+          "identifier": "boost_1_0-7d91c102-4b73-b55e-398c-cca7ae1e7bf5"
+        }
+      ],
+      "license_clues": [],
+      "percentage_of_license_text": 24.24,
+      "scan_errors": []
+    }
+  ]
+}
